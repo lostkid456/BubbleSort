@@ -15,5 +15,6 @@ public class BubbleSortRunner {
         time=System.nanoTime()-time;
 
         System.out.println("Time Taken:"+time);
+        SortingUtil.isSorted(testArr);
     }
 }
